@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    background: rgba(0,0,0,0.9);
+}
+.showcase {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.intro {
+    display: flex;
+    color: white;
+    height: 100vh;
+    /* background-image: url('images/code-screenshot.png'); */
+    background-image: url('images/waneela.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+}
+/* .showcase::after {
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background-image: url('images/code-screenshot.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    filter: blur(2px); 
+} */
+.typing-effect {
+    position: relative;
+    margin-left: 10px;
+    top: 100px;
+}
+.typing-effect::after {
+    content: "";
+    position: absolute;
+    margin-top: 5px; 
+    width: 4px;
+    height: 80%;
+    border-right: 2px solid white;
+    animation: blink 1s infinite ease;
+}
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,215 @@
+/* body {
+    background-image: url("images/code-screenshot.png");
+} */
+.presentation-modes {
+    height: 100vh;
+}
+.home_image_screen {
+    content: '';
+    height: 100vh;
+    width: 100%;
+    /* background-image: url('images/code-screenshot.png'); */
+    background-image: url('images/waneela_pink_city.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    display: block;
+    filter: blur(2px) grayscale(.5); 
+    position: absolute;
+}
+.main_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+}
+
+.main_page_name {
+    color: rgb(114, 204, 243);
+    font: bold;
+    padding-top: 20%;
+    font-size: 20px;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 70px;
+    top: 50px;
+}
+/* .main_page_job_description {
+    color: rgb(97, 172, 204);
+    padding-bottom: 5%;
+    position: relative;
+} */
+.btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 1rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    position: relative;
+}
+.btn-outline-secondary {
+    color: rgb(97, 172, 204);
+    border-color: rgb(97, 172, 204);
+    border-top-color: rgb(97, 172, 204);
+    border-right-color: rgb(97, 172, 204);
+    border-bottom-color: rgb(97, 172, 204);
+    border-left-color: rgb(97, 172, 204);
+}
+.btn:hover {
+ color: rgb(221, 242, 252);
+ background-color: rgb(97, 172, 204);
+ border-color: rgb(97, 172, 204); 
+ box-shadow: rgb(97, 172, 204);
+}
+.about_section {
+    padding-top: 10%;
+}
+.about_section_h2 {
+    text-decoration: underline;
+    padding-bottom: 5%;
+    color: rgb(101, 130, 143);
+}
+.skillset_icons {
+    padding-right: 50px;
+    color: rgb(114, 204, 243);
+}
+.about_section>.container-fluid, .text-center, .align-middle {
+    padding-right: 100px;
+}
+/* .about_section {
+    background-color: rgb(221, 242, 252);
+} */
+@keyframes intro {
+    to {
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+    }
+
+}
+/* @keyframes text2_intro {
+    0% {
+    }
+    30% {
+    }
+    85% {
+    }
+} */
+.test_paragraph {
+    padding-top: 15px;
+}
+/* .presentation-modes {
+    background-image: url('images/code-screenshot.png');
+    background-position: fixed;
+    height: 100vh;
+    background-repeat: no-repeat;
+} */
+.terminal_form {
+    color: rgb(50, 219, 72);
+    background-color: rgb(37, 87, 44);
+    visibility: hidden;
+}
+.terminal_input {
+    color: rgb(50, 219, 72);
+    background-color: rgb(37, 87, 44);
+    outline: none;
+}
+.navbar-dark {
+      color: rgba(105, 169, 189, 0.623);
+}
+.description_section {
+    color: rgb(101, 130, 143);
+    margin-top: 10%;
+}
+ .skillset_descriptions {
+     color: rgb(97, 172, 204);
+}
+@keyframes skillset_animations_open {
+    0% {
+        visibility: visible;
+        margin-top: -35px;
+        opacity: 0;
+    }
+}
+@keyframes skillset_animations_close {
+    0% {
+        opacity: 0.5;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        margin-top: -40px;
+        opacity: 0px;
+    }
+}
+@keyframes bracket_animations_open {
+    0% {
+        opacity:0;
+    }
+}
+@keyframes bracket_animations_close {
+    0% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 0;
+    }
+}
+.main_page_name::after {
+    content: "";
+    position: absolute;
+    margin-top: 0px; 
+    width: 4px;
+    height: 10%;
+    border-right: 2px solid white;
+    animation: blink 1s infinite ease;
+}
+.view_my_work_button {
+    margin-top: 5%;
+    visibility: hidden;
+}
+.view_my_work_button::hover {
+    opacity: .8;
+    animation: none;
+}
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    } 
+    100% {
+        opacity: .7;
+    }
+}
+@keyframes blinkFade {
+    0% {
+        opacity: .4;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .4;
+    }
+
+}
